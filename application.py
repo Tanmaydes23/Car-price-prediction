@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 
 # Page configuration
 st.set_page_config(
-    page_title="CarValue AI - Car Price Predictor",
+    page_title="CarValue - Car Price Predictor",
     page_icon="🚗",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -117,9 +117,9 @@ df = load_data()
 # Header
 st.markdown("""
 <div class="main-header">
-    <h1>🚗 CarValue AI</h1>
+    <h1>🚗 CarValue </h1>
     <h3>Intelligent Car Price Prediction System</h3>
-    <p>Get instant, accurate car valuations powered by machine learning</p>
+    <p>Get instant, accurate car valuations </p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -344,7 +344,7 @@ else:
 st.markdown("---")
 st.markdown(
     "<div style='text-align: center; color: #666; padding: 1rem;'>"
-    "🚗 CarValue AI - Powered by Machine Learning | Made with ❤️ using Streamlit"
+    "🚗 CarValue | Made using Streamlit"
     "</div>",
     unsafe_allow_html=True
 )
